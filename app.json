@@ -1,0 +1,20 @@
+{
+    "name": "Simple API Demo using Rails & Heroku",
+    "description": "",
+    "website": "",
+    "repository": "https://github.com/niklasrichardson/demo_api_v2",
+    "logo": "",
+    "success_url": "",
+    "keywords": [
+        ""
+    ],
+    "scripts": {
+        "postdeploy": "bundle exec rake db:setup"
+    },
+    "addons": [
+        ""
+    ],
+    "env": {
+        "BUILDPACK_URL": ""
+    }
+}
